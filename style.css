@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
     background-image: url(./images/pawel-nolbert-62OK9xwVA0c-unsplash.jpg);
     position: relative;
@@ -67,30 +67,40 @@ button {
     text-align: center;
 }
 
-.btn-primary {
+.btn {
     font-size: 2.5rem;
+    padding: none;
     margin: 0.375rem 0.375rem;
+    border-width: 5px;
+}
+
+
+
+
+.btn:last-child {
+    margin-left: 0.625rem;
+}
+
+.btn:nth-child(11) {
+    margin-left: 0.625rem;
+}
+
+.btn-danger {
     transition: .5s ease-in;
 }
 
-
-.btn-primary:hover {
-    background: #fff;
-
-}
-
-.btn-primary:last-child {
-    margin-left: 0.625rem;
-}
-
-.btn-primary:nth-child(11) {
-    margin-left: 0.625rem;
+.btn-danger:hover {
+    background-color: red;
+    color: #fff;
 }
 
 /* 1400px screen size */
 @media (min-width: 87.5rem) {
     .overlay {
         height: 150vh;
+    }
+    .signTraits {
+        text-align: center;
     }
 }
 
@@ -100,14 +110,17 @@ button {
     .overlay {
         height: 150vh;
     }
+    .signTraits {
+        text-align: center;
+    }
 }
 
 /* 992px screen size*/
 @media (max-width: 62rem) {
-    .btn-primary:last-child {
+    .btn:last-child {
         margin-left: 0.625rem;
     }
-    .btn-primary:nth-child(11) {
+    .btn:nth-child(11) {
         margin-left: 0.375rem;
     }
     #title-name {
@@ -119,16 +132,19 @@ button {
     #title-name {
         margin-right: 2.875rem;
     }
+    .signTraits {
+        text-align: center;
+    }
 }
 
 
 
 /* 768px screen size */
 @media (max-width: 48rem) {
-    .btn-primary:last-child {
+    .btn:last-child {
         margin-left: 0.6875rem;
     }
-    .btn-primary:nth-child(11) {
+    .btn:nth-child(11) {
         margin-left: 0.6875rem;
     }
     #title-name {
@@ -136,6 +152,9 @@ button {
     }
     .overlay {
         height: 150vh;
+    }
+    .signTraits {
+        text-align: center;
     }
 }
 
@@ -146,6 +165,9 @@ button {
     }
     .overlay {
         width: fit-content;
+    }
+    .signTraits {
+        text-align: center;
     }
 }
 

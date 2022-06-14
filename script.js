@@ -14,7 +14,6 @@ var sagittariusButton = document.getElementById('add-button-8');
 var capricornButton = document.getElementById('add-button-9');
 var aquariusButton = document.getElementById('add-button-10');
 var piscesButton = document.getElementById('add-button-11');
-var allButtons = document.getElementsByClassName('btn-primary');
 
 ariesButton.onclick = function() {
     var row = document.createElement('div');
@@ -38,7 +37,7 @@ ariesButton.onclick = function() {
 
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = 'REMOVE';
 
     divCol.appendChild(removeButton);
@@ -79,7 +78,7 @@ tuarusButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -117,7 +116,7 @@ geminiButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -154,7 +153,7 @@ cancerButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -191,7 +190,7 @@ leoButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -228,7 +227,7 @@ virgoButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -265,7 +264,7 @@ libraButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -302,7 +301,7 @@ scorpioButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -339,7 +338,7 @@ sagittariusButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -377,7 +376,7 @@ capricornButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -415,7 +414,7 @@ aquariusButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
@@ -453,7 +452,7 @@ piscesButton.onclick = function(){
     superHero.appendChild(row);
 
     var removeButton = document.createElement('button');
-    removeButton.setAttribute('class', 'btn btn-danger');
+    removeButton.setAttribute('class', 'btn-danger');
     removeButton.innerHTML = "REMOVE";
 
     divCol.appendChild(removeButton);
