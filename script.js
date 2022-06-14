@@ -14,6 +14,7 @@ var sagittariusButton = document.getElementById('add-button-8');
 var capricornButton = document.getElementById('add-button-9');
 var aquariusButton = document.getElementById('add-button-10');
 var piscesButton = document.getElementById('add-button-11');
+var allButtons = document.getElementsByClassName('btn-primary');
 
 ariesButton.onclick = function() {
     var row = document.createElement('div');
@@ -35,11 +36,14 @@ ariesButton.onclick = function() {
     row.appendChild(divCol);
     superHero.appendChild(row);
 
+
     var removeButton = document.createElement('button');
     removeButton.setAttribute('class', 'btn btn-danger');
     removeButton.innerHTML = 'REMOVE';
 
     divCol.appendChild(removeButton);
+
+
 
     removeButton.onclick = function() {
         divCol.removeChild(ariesH3);
@@ -50,6 +54,8 @@ ariesButton.onclick = function() {
         overlay.removeChild(superHero);
 
     }
+
+
 }
 
 tuarusButton.onclick = function(){
@@ -65,7 +71,7 @@ tuarusButton.onclick = function(){
 
     var tuarusP = document.createElement('p');
     tuarusP.setAttribute('class', 'signTraits');
-    tuarusP.innerHTML = 'Second sign of the zodiac. Taurus individuals are known for their strong memory. Not known to talk about personal things unless they are very comfortable with you. Patience is a virtue when it comes to taures; however, beware! Once taures runs out of patience, an explosive side suddenly comes out. This earth sign is willing to make sacrifices to the people they love and protect them as well.';
+    tuarusP.innerHTML = 'Second sign of the zodiac, taurus individuals are intelligent, hardworking, dependable, dedicated, and stubborn. Taureans believe in honesty above all else and will protect those who they trust and love. Taures is ruled by the planet venus, who is the roman goddess of love and beauty.';
 
     divCol.appendChild(tuarusH3);
     divCol.appendChild(tuarusP);
@@ -86,6 +92,8 @@ tuarusButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
+
 }
 
 geminiButton.onclick = function(){
@@ -122,6 +130,7 @@ geminiButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 cancerButton.onclick = function(){
@@ -158,6 +167,7 @@ cancerButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 leoButton.onclick = function(){
@@ -194,6 +204,7 @@ leoButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 virgoButton.onclick = function(){
@@ -230,6 +241,7 @@ virgoButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 libraButton.onclick = function(){
@@ -266,6 +278,7 @@ libraButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 scorpioButton.onclick = function(){
@@ -302,6 +315,7 @@ scorpioButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 sagittariusButton.onclick = function(){
@@ -338,6 +352,7 @@ sagittariusButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 capricornButton.onclick = function(){
@@ -354,6 +369,7 @@ capricornButton.onclick = function(){
     var capricornP = document.createElement('p');
     capricornP.setAttribute('class', 'signTraits');
     capricornP.innerHTML = 'The tenth sign of the zodiac, capricorn indivduals are often known as the work-o-holics of the zodiac. These people are extremely disciplined and are able to focus on their goals in a steady and effeciant matter. Capricorns are patient and generally calm who dont get angry as easily. These indivduals will always work hard and sacrifice for their goals above else.'
+
 
     divCol.appendChild(capricornH3);
     divCol.appendChild(capricornP);
@@ -374,6 +390,7 @@ capricornButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 aquariusButton.onclick = function(){
@@ -390,6 +407,7 @@ aquariusButton.onclick = function(){
     var aquariusP = document.createElement('p');
     aquariusP.setAttribute('class', 'signTraits');
     aquariusP.innerHTML = 'The eleventh sign of the zodiac, aquarius individuals are advanced, self-reliant, clever, exceptional, and optimisitc. Aquarians like air lack a disitnct form and appear to resist classification. Others are enthusiastic and active, while others are calm and sensitive. Aqurius symbol is the water bearer, a mystical healer who gives life to the land.'
+
 
     divCol.appendChild(aquariusH3);
     divCol.appendChild(aquariusP);
@@ -410,6 +428,7 @@ aquariusButton.onclick = function(){
         superHero.removeChild(row);
         overlay.removeChild(superHero);
     }
+
 }
 
 piscesButton.onclick = function(){
@@ -426,6 +445,7 @@ piscesButton.onclick = function(){
     var piscesP = document.createElement('p');
     piscesP.setAttribute('class', 'signTraits');
     piscesP.innerHTML = 'The twelve sign of the zodiac, pisces indivduals have great empathy for people and have a great capacity in expressing their emotions. Pisces people will go into great length to make the people around them happy as they are the most emotionally aware and gracious sign in the zodiac. Like the waters of the earth, pisces energy is magical and mysterious. Pisces is ruled by the planet Neptune, the planet of governing dreams, creativity, and boundless imagination.'
+
 
     divCol.appendChild(piscesH3);
     divCol.appendChild(piscesP);
@@ -447,6 +467,7 @@ piscesButton.onclick = function(){
         overlay.removeChild(superHero);
     }
 }
+
 
 })
 
