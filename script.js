@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-var content = document.getElementById('content');
 var superHero = document.getElementById('superHero');
 var overlay = document.getElementsByClassName('overlay');
 var ariesButton = document.getElementById('add-button-0');
@@ -28,7 +27,7 @@ ariesButton.onclick = function() {
 
     var ariesP = document.createElement('p');
     ariesP.setAttribute('class', 'signTraits');
-    ariesP.innerHTML = 'First sign of the zodiac. Aries people are bold and ambitious, and are always up for a challenge. Passionate and confident leaders with a direct approach. Arians believe in an uncomplicated way of doing things without making time with unnecessary details.';
+    ariesP.innerHTML = 'First sign of the zodiac, aries people are bold and ambitious, and are always up for a challenge. Passionate and confident leaders with a direct approach, arians believe in an uncomplicated way of doing things without making time with unnecessary details.';
 
     divCol.appendChild(ariesH3);
     divCol.appendChild(ariesP);
@@ -108,7 +107,7 @@ geminiButton.onclick = function(){
 
     var geminiP = document.createElement('p');
     geminiP.setAttribute('class', 'signTraits');
-    geminiP.innerHTML = 'Third sign of the zodiac, Gemini indivduals are funny, smart, kind, genuine, and quirky. They are one of the more interesting types of people you will meet. Their unique nature makes them the life of a party or any social setting they are apart of. Geminis are known for their dual personalities which gives them a twin like persona.';
+    geminiP.innerHTML = 'Third sign of the zodiac, Gemini indivduals are funny, smart, kind, genuine, and quirky. They are one of the more interesting types of people you will meet. Their unique nature makes them the life of the party, or any social setting they are apart of. Geminis are known for their dual personalities which gives them a twin like persona.';
 
     divCol.appendChild(geminiH3);
     divCol.appendChild(geminiP);
@@ -145,7 +144,7 @@ cancerButton.onclick = function(){
 
     var cancerP = document.createElement('p');
     cancerP.setAttribute('class', 'signTraits');
-    cancerP.innerHTML = 'The fourth sign of the zodiac, Cancer individuals are caring, loyal, and empathetic. Regardless on how busy they are during the entire day, cancer people will always be there for you during a sitaution or crisis. These personality traits make them great friends and lovers who give good advice and offer their upmost attention during emotional times you may be facing. These traits make cancers someone that you can easily trust.';
+    cancerP.innerHTML = 'The fourth sign of the zodiac, Cancer individuals are caring, loyal, and empathetic. Regardless on how busy they are during the entire day, cancer people will always be there for you during a sitaution or crisis. These personality traits make them great friends and lovers. Cancers offer their upmost attention during emotional times you may be facing, these traits make cancers someone that you can easily trust.';
 
     divCol.appendChild(cancerH3);
     divCol.appendChild(cancerP);
@@ -182,7 +181,7 @@ leoButton.onclick = function(){
 
     var leoP = document.createElement('p');
     leoP.setAttribute('class', 'signTraits');
-    leoP.innerHTML = 'The fifth sign of the zodiac, leo individuals are known for their stability, loyalty, and consitency. They are dedicated friends and lovers who put out their heart & warmth to all of their loving relationships. Leos are natural leaders of the zodiac, who are proud, confident, and joyful people.';
+    leoP.innerHTML = 'The fifth sign of the zodiac, leo individuals are known for their stability, loyalty, and consitency. They are dedicated friends and lovers who put out their heart and warmth to all of their loving relationships. Leos are natural leaders of the zodiac, who are proud, confident, and joyful people.';
 
     divCol.appendChild(leoH3);
     divCol.appendChild(leoP);
@@ -219,7 +218,7 @@ virgoButton.onclick = function(){
 
     var virgoP = document.createElement('p');
     virgoP.setAttribute('class', 'signTraits');
-    virgoP.innerHTML = 'The sixth sign of the zodiac, virgo indivduals are perfectionists at heart. Their organized anylitcal minds are what bring out the perfectionist soul they carry out to be. Virgos are private people who may prefer more alone time than other signs. Curious by nature, virgos make great researchers for career or as a hobbyist.';
+    virgoP.innerHTML = 'The sixth sign of the zodiac, virgo indivduals are perfectionists at heart. Their organized analytical minds are what bring out the perfectionist soul they carry out to be. Virgos are private people who may prefer more alone time than other signs. Curious by nature, virgos make great researchers for career or as a hobbyist.';
 
     divCol.appendChild(virgoH3);
     divCol.appendChild(virgoP);
@@ -256,7 +255,7 @@ libraButton.onclick = function(){
 
     var libraP = document.createElement('p');
     libraP.setAttribute('class', 'signTraits');
-    libraP.innerHTML = 'The seventh sign of the zodiac, libra indivduals are always in search of balance, harmony, and justice. Libra people can often be shy and hard letting their guard down. This sign is known for their emotional intelligence and are able to read emotions and feelings from others. At their vey core they are nurturing and caring, but tend to have trouble moving on from situations or relationships.';
+    libraP.innerHTML = 'The seventh sign of the zodiac, libra indivduals are always in search of balance, harmony, and justice. Libra people can often be shy, and letting their guard down. This sign is known for their emotional intelligence and are able to read emotions and feelings from others. At their vey core, they are nurturing and caring, but tend to have trouble moving on from situations or relationships.';
 
     divCol.appendChild(libraH3);
     divCol.appendChild(libraP);
@@ -293,7 +292,7 @@ scorpioButton.onclick = function(){
 
     var scorpioP = document.createElement('p');
     scorpioP.setAttribute('class', 'signTraits');
-    scorpioP.innerHTML = 'The eighth sign of the zodiac, scorpio indivduals are one of most intense and passionate signs of the zodiac. Often secretive, discrete, observing and detailed, scorpios have a mysterious aura about them that many often feel when encountering them for the first time. However scorpios do not shy away from the unknown and are very protective when it comes to their loved ones.'
+    scorpioP.innerHTML = 'The eighth sign of the zodiac, scorpio indivduals are one of most intense and passionate signs of the zodiac. Often secretive, discrete, observing and detailed, scorpios have a mysterious aura about them that many often feel when encountering them for the first time. However, scorpios do not shy away from the unknown, and are very protective when it comes to their loved ones.'
 
     divCol.appendChild(scorpioH3);
     divCol.appendChild(scorpioP);
@@ -330,7 +329,7 @@ sagittariusButton.onclick = function(){
 
     var sagittariusP = document.createElement('p');
     sagittariusP.setAttribute('class', 'signTraits');
-    sagittariusP.innerHTML = 'The ninth sign of the zodiac, sagittarius indivduals love to explore and wander the world. They are full of energy and are always up for any adventure. Sagittarius people will be the most loyal friend you will have; however, they can be impatient at times and desire freedom and expansion on their own.'
+    sagittariusP.innerHTML = 'The ninth sign of the zodiac, sagittarius indivduals love to explore and wander the world. They are full of energy, and are always up for any adventure. Sagittarius people will be the most loyal friend you will ever have; however, they can be impatient at times, desire freedom, and expansion on their own.'
 
     divCol.appendChild(sagittariusH3);
     divCol.appendChild(sagittariusP);
@@ -367,7 +366,7 @@ capricornButton.onclick = function(){
 
     var capricornP = document.createElement('p');
     capricornP.setAttribute('class', 'signTraits');
-    capricornP.innerHTML = 'The tenth sign of the zodiac, capricorn indivduals are often known as the work-o-holics of the zodiac. These people are extremely disciplined and are able to focus on their goals in a steady and effeciant matter. Capricorns are patient and generally calm who dont get angry as easily. These indivduals will always work hard and sacrifice for their goals above else.'
+    capricornP.innerHTML = 'The tenth sign of the zodiac, capricorn indivduals are often known as the work-o-holics of the zodiac. These people are extremely disciplined, and are able to focus on their goals in a steady and effeciant matter. Capricorns are patient, calm, and not the type to get angry as easily. These indivduals will always work hard and sacrifice for their goals above else.'
 
 
     divCol.appendChild(capricornH3);
@@ -405,7 +404,7 @@ aquariusButton.onclick = function(){
 
     var aquariusP = document.createElement('p');
     aquariusP.setAttribute('class', 'signTraits');
-    aquariusP.innerHTML = 'The eleventh sign of the zodiac, aquarius individuals are advanced, self-reliant, clever, exceptional, and optimisitc. Aquarians like air lack a disitnct form and appear to resist classification. Others are enthusiastic and active, while others are calm and sensitive. Aqurius symbol is the water bearer, a mystical healer who gives life to the land.'
+    aquariusP.innerHTML = 'The eleventh sign of the zodiac, aquarius individuals are advanced, self-reliant, clever, exceptional, and optimisitc. Aquarians like air lack a disitnct form, and appear to resist classification. Others are enthusiastic and active, while others are calm and sensitive. Aqurius symbol is the water bearer, a mystical healer who gives life to the land.'
 
 
     divCol.appendChild(aquariusH3);
@@ -443,7 +442,7 @@ piscesButton.onclick = function(){
 
     var piscesP = document.createElement('p');
     piscesP.setAttribute('class', 'signTraits');
-    piscesP.innerHTML = 'The twelve sign of the zodiac, pisces indivduals have great empathy for people and have a great capacity in expressing their emotions. Pisces people will go into great length to make the people around them happy as they are the most emotionally aware and gracious sign in the zodiac. Like the waters of the earth, pisces energy is magical and mysterious. Pisces is ruled by the planet Neptune, the planet of governing dreams, creativity, and boundless imagination.'
+    piscesP.innerHTML = 'The twelve sign of the zodiac, pisces indivduals have great empathy for people, and have a great capacity in expressing their emotions. Pisces people will go into great length to make the people around them happy as they are the most emotionally aware and gracious sign in the zodiac. Like the waters of the earth, pisces energy is magical and mysterious. Pisces is ruled by the planet Neptune, the planet of governing dreams, creativity, and boundless imagination.'
 
 
     divCol.appendChild(piscesH3);
