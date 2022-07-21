@@ -99,6 +99,12 @@ button {
     color: #fff;
 }
 
+h5 {
+    font-style: italic;
+}
+
+
+
 /* 1400px screen size */
 @media (min-width: 87.5rem) {
     .overlay {
