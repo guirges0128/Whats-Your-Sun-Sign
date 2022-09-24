@@ -25,7 +25,7 @@ h1 {
     height: 31.25 rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 
 }
 
@@ -116,7 +116,7 @@ h5 {
     #box-icon {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
     }
 
 }
@@ -129,6 +129,11 @@ h5 {
     }
     .signTraits {
         text-align: center;
+    }
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 
 }
@@ -147,6 +152,9 @@ h5 {
     }
     #hero {
         margin-left: none;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
     .signTraits {
         text-align: center;
@@ -202,6 +210,11 @@ h5 {
     }
     .btn:nth-child(10) {
         margin-left: 0.625rem;
+    }
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }
 
